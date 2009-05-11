@@ -1,5 +1,5 @@
 # $Id: Twofish.pm,v 2.12 2001/05/21 17:38:01 ams Exp $
-# Copyright 2001 Abhijit Menon-Sen <ams@wiw.org>
+# Copyright 2001 Abhijit Menon-Sen <ams@toroid.org>
 
 package Crypt::Twofish;
 
@@ -9,7 +9,7 @@ use DynaLoader;
 use vars qw( @ISA $VERSION );
 
 @ISA = qw( DynaLoader );
-($VERSION) = q$Revision: 2.12 $ =~ /([\d.]+)/;
+$VERSION = '2.13';
 
 bootstrap Crypt::Twofish $VERSION;
 
@@ -151,9 +151,9 @@ platforms, and suggesting that I probe for features via %Config.
 
 =head1 AUTHOR
 
-Abhijit Menon-Sen <ams@wiw.org>
+Abhijit Menon-Sen <ams@toroid.org>
 
 Copyright 2001 Abhijit Menon-Sen.
 
-This software is distributed under the terms of the Artistic License
-<URL:http://ams.wiw.org/code/artistic.txt>.
+This module is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.

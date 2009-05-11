@@ -1,3 +1,10 @@
+2.13    2009-05-11      Abhijit Menon-Sen <ams@toroid.org>
+
+    * Relicensed on request from the old Artistic License to "the same
+      terms as Perl itself" (i.e. new Artistic/GPL).
+
+      (No functional changes.)
+
 2.12    2001-05-21
 
     * More Makefile.PL feature-probing updates.
