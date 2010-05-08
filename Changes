@@ -1,3 +1,7 @@
+2.14    2010-05-08      Abhijit Menon-Sen <ams@toroid.org>
+
+    * Fix inaccurate dependency in Makefile.PL
+
 2.13    2009-05-11      Abhijit Menon-Sen <ams@toroid.org>
 
     * Relicensed on request from the old Artistic License to "the same
