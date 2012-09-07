@@ -9,7 +9,7 @@ use DynaLoader;
 use vars qw( @ISA $VERSION );
 
 @ISA = qw( DynaLoader );
-$VERSION = '2.14';
+$VERSION = '2.15';
 
 bootstrap Crypt::Twofish $VERSION;
 
