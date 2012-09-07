@@ -56,7 +56,10 @@ WriteMakefile(
     OBJECT        => 'Twofish.o _twofish.o',
     VERSION_FROM  => 'Twofish.pm',
     ABSTRACT_FROM => 'Twofish.pm',
-    depend        => { '_twofish.o' => 'tables.h' }
+    depend        => { '_twofish.o' => 'tables.h' },
+    PREREQ_PM     => {
+        'strict' => '0'
+    }
 );
 
 # Compile and run a program to test for a particular feature.
