@@ -49,7 +49,7 @@ open(F, ">platform.h") || die "platform.h: $!\n";
 print F $text;
 close F;
 
-sub MY::postamble { "tables.h: tab/tables.pl\n\tperl tab/tables.pl\n" }
+sub MY::postamble { "tables.h: tab/tables.pl\n\t\$(PERL) tab/tables.pl\n" }
 
 WriteMakefile(
     NAME          => 'Crypt::Twofish',
