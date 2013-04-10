@@ -1,3 +1,7 @@
+2.16    2013-04-10      Abhijit Menon-Sen <ams@toroid.org>
+
+    * Another attempt to silence cpantesters. No functional changes.
+
 2.15    2012-09-07      Abhijit Menon-Sen <ams@toroid.org>
 
     * Include 'strict' in PREREQ_PM to silence cpantesters. No
