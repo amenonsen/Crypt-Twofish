@@ -54,7 +54,8 @@ twofish_crypt(self, input, output, decrypt)
             output = sv_newmortal();
         outlen = 16;
 
-        if (SvREADONLY(output) || !SvUPGRADE(output, SVt_PV))
+        SvUPGRADE(output, SVt_PV);
+        if (SvREADONLY(output))
             croak("cannot use output as lvalue");
 
         twofish_crypt(self,
