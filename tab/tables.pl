@@ -3,7 +3,7 @@
 # Copyright 2001 Abhijit Menon-Sen <ams@wiw.org>
 
 use strict;
-require 'tab/misc.pl';
+require './tab/misc.pl';
 
 my ($qtab, $mtab) = ([], []);
 
